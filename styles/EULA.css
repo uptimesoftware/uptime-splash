@@ -1,0 +1,36 @@
+.ui-dialog .ui-dialog-titlebar-close, .ui-dialog .ui-dialog-titlebar {
+	visibility:hidden;
+}
+.ui-dialog .ui-dialog-buttonpane {
+	border: none;
+}
+div.ui-dialog-content h1 {
+	font-size:14px;
+	font-weight: bold;
+	margin-bottom: 14px;
+}
+div.ui-dialog-content p {
+	font-size:12px;
+	line-height:14px;
+	margin-bottom:12px;
+	text-indent:20px;
+}
+.ui-dialog {
+	box-shadow: 10px 10px 5px #333;
+}
+.ui-state-default button{
+	-webkit-transition: background-color 1s;
+	transition: background-color 1s;
+	transition-timing-function: ease-in-out;
+}
+.ui-state-hover button{
+	background-color:dark-gray;
+}
+span.ui-button-text {
+	font-size: 12px;
+}
+.ui-widget-overlay {
+   background: #333 url(images/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x;
+   opacity: .80;
+   filter: Alpha(Opacity=80);
+}
